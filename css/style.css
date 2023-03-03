@@ -27,20 +27,20 @@ body {
 	color: seashell;
 	border-style: double;
 	border-width: 7px;
-	width: 99%;
-	margin: 8px;
+	width: 60%;
+	margin: auto;
 }
 
 /* Style the header */
 .header {
 	background-image: url("bac.jpg");
 	background-color: #8A817C;
-	padding: 2px;
-	margin: 8px;
+	padding: 5px;
+	margin: auto;
 	text-align: center;
 	font-size: 15px;
 	font-family: 'Playfair Display', serif;
-	width: 100%;
+	width: 80%;
 	color: white;
 }
 
@@ -52,7 +52,7 @@ body {
 	text-align: center;
 	font-size: 17px;
 	font-family: 'Playfair Display', serif;
-	width: 90%;
+	width: 60%;
 	color: white;
 	border-style: double;
 	border-color: SlateGrey;
@@ -211,7 +211,6 @@ img {
 	@media screen and (max-width: 600px) {
 		.column-2 {
 			width: 100%;
-			float: none;
 		}
 	}
 }
