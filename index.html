@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/meyers_and_normalizeform_reset.css">
     <script async src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="top">
@@ -14,13 +17,25 @@
     <div class="header">
       <h2>FULL COURT PRESS - EMAIL NEWSLETTER</h2>
     </div>
-    <div class="info">
-      <h3 class="feature-head">Newsletter Features</h3>
-      <p>Draft Assist: Live sync your draft with our current rankings found freshly updated at the start of each week.</p>
-      <p>Start/Sit Assistant: Have direct comparisons of top positions and players in your team.</p>
-      <p>Up to date information on all things NBA fantasy, including weekly blog found at the end of the newsletter.</p>
+    
+      <div class="container-skills">
+    <div class="box-skills">
+      <img class="skill-icon" src="images/da-logo.png" alt="Draft Assist Logo">
+      <h1>Draft Assist</h1>
+      <p>Live sync your draft with our current rankings found freshly updated at the start of each week</p>
+    </div>
+    <div class="box-skills">
+      <img class="skill-icon" src="images/ss-logo.png" alt="Web Dev Logo">
+      <h1>Start/Sit</h1>
+      <p>Have direct comparisons of top positions and players in your team. With up to date information on all things NBA fantasy.</p>
+    </div>
+    <div class="box-skills">
+      <img class="skill-icon" src="images/team-logo.png" alt="Team Logo">
+      <h1> Team Generator </h1>
       <p>Funny team names, that are perfect for any fandom in the league. (Start of the season only)</p>
     </div>
+  </div> 
+
     <div class="ad">
       <h4>SIGN UP FOR THE FANTASY NBA NEWSLETTER BELOW</h4>
       <button type="button" id="myBtn">CLICK FOR DISCOUNT CODE</button> 
@@ -40,14 +55,16 @@
             <input type="email" id="emails" name="emails" multiple placeholder="Your email(s) here, use commas to separate"><br>
             <label for="phone">Enter your phone number:</label><br>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="" placeholder="Format: 123-456-7890"><br>
+            <label for="pname">Discount Code:</label><br>
+            <input type="text" id="pname" name="promocode" placeholder="Enter discount code here"><br>
             <input type="submit" value="Submit">
           </form>
         </div>
       </div>
       <div class="column">
         <div class="col-2">
-          <img src="images/pic.jpg" alt="Avatar" style="width:200px">
-          <h2 class="head1">Player Approved</h2>
+          <img class="player" src="images/pic.jpg" alt="Avatar">
+          <h1 class="head1">User Reviews</h1>
           <ul>
             <li>"One of the best analytical newsletters." - User</li>
             <li>"It helped me win my league." - User</li>
