@@ -27,7 +27,7 @@ body {
 	color: seashell;
 	border-style: double;
 	border-width: 7px;
-	width: 60%;
+	width: auto;
 	margin: auto;
 	margin-top: 2px;
 	font-family: 'Playfair Display', serif;
