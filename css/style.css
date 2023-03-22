@@ -164,12 +164,16 @@
      width: auto;
      height: auto;
 }
+
+/* Promo Code Button */
  button{
      font-family: 'Playfair Display', serif;
      background-color: white;
      color: black;
      margin-bottom: 5px;
 }
+
+/* Container Elements */
  .container-skills {
      width: auto;
      margin: 0 auto;
@@ -211,10 +215,13 @@
      margin-left: 10px;
      width: 35px;
 }
+
+/* Image of Player */
  .player{
      width: 200px;
      float:right;
 }
+
 /* Media Queries for mobile */
  @media screen and (min-width: 480px) {
      .col-1 {
