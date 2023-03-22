@@ -255,4 +255,16 @@
   .box-skills {
     margin-bottom: 30px;
   }
+  
+      /* Center the social icons */
+     .skill-icon {
+         display: block;
+         margin: 0 auto;
+    }
+    /* Make the player's images smaller */
+     .player{
+         display: block;
+         margin: 0 auto;
+         width: 50px;
+    }
 }
