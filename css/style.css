@@ -215,7 +215,7 @@
      width: 200px;
      float:right;
 }
-/* Media Queries */
+/* Media Queries for mobile */
  @media screen and (min-width: 480px) {
      .col-1 {
          width: 100%;
@@ -242,6 +242,7 @@
          display: block;
          margin: 0 auto;
     }
+    /* Make the player's images smaller */
      .player{
          display: block;
          margin: 0 auto;
@@ -249,8 +250,8 @@
     }
 }
 
+/* Media Queries for Tablet */
 @media screen and (max-width: 768px) {
-
   .box-skills {
     margin-bottom: 30px;
   }
