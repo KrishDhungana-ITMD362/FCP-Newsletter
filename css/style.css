@@ -238,7 +238,7 @@
          width: 100%;
     }
 }
- @media only screen and (min-width: 480px) {
+ @media only screen and (max-width: 480px) {
     /* Adjust the width of the link boxes */
      .box-skills {
          width: 100%;
@@ -257,7 +257,7 @@
 }
 
 /* Media Queries for Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .box-skills {
     margin-bottom: 30px;
   }
