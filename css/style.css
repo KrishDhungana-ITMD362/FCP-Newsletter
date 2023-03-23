@@ -222,55 +222,40 @@
 }
 
 /* Media Queries for mobile */
- @media screen and (min-width: 480px) {
-     .col-1 {
-         width: 100%;
-         float: left;
+ @media (max-width: 600px) {
+  h2 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .container-skills {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center;
+    width: 100%;
     }
-     .ul {
-         margin-left: 216px;
-    }
-     .top {
-         float: none;
-         width: 60%;
-    }
-     .column-2 {
-         width: 100%;
-    }
-}
- @media only screen and (max-width: 480px) {
-    /* Adjust the width of the link boxes */
-     .box-skills {
-         width: 100%;
-    }
-    /* Center the social icons */
-     .skill-icon {
-         display: block;
-         margin: 0 auto;
-    }
-    /* Make the player's images smaller */
-     .player{
-         display: block;
-         margin: 0 auto;
-         width: 50px;
-    }
+  .box-skills{
+    width: 90%;
+  }  
+  input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="password"], textarea {
+    width:100%;
+  }
 }
 
 /* Media Queries for Tablet */
-@media screen and (max-width: 768px) {
-  .box-skills {
-    margin-bottom: 30px;
+@media (min-width: 600px) and (max-width: 900px) {
+  h2 {
+    font-size: 32px;
   }
-  
-      /* Center the social icons */
-     .skill-icon {
-         display: block;
-         margin: 0 auto;
-    }
-    /* Make the player's images smaller */
-     .player{
-         display: block;
-         margin: 0 auto;
-         width: 50px;
-    }
+  h4 {
+    font-size: 20px;
+  }
+  /* Adjust container width */
+  .container-skills {
+    width: 90%;
+  }
 }
+
+
+
