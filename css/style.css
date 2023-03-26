@@ -272,7 +272,7 @@
 }
 
 /* For 400 - 600 */
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 600px) {
   h2 {
     font-size: 24px;
   }
