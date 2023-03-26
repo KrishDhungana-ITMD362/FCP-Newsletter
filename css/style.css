@@ -53,20 +53,7 @@
      box-sizing: border-box;
      font-family: 'Playfair Display','Noto Serif', serif;
 }
-/* Submit Button Input */
- input[type=submit] {
-     width: 100%;
-     background-color: #463F3A;
-     color: #F4F3EE;
-     padding: 14px 20px;
-     margin: 8px 0;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
-     font-family: 'Playfair Display','Noto Serif', serif;
-     font-size: 15px;
-     text-align: center;
-}
+
 /* Date of Birth Input */
  input[type=date] {
      width: 20%;
@@ -89,10 +76,7 @@
      font-family: 'Playfair Display','Noto Serif', serif;;
      border-radius: 4px;
 }
-/* Submit Input Hover */
- input[type=submit]:hover {
-     background-color: #45a049;
-}
+
 /* Overall Form Setup */
  .form {
      border-radius: 5px;
@@ -102,6 +86,26 @@
      color: White;
      border-color: SlateGrey;
 }
+
+.cta-button {
+  background-color: #8A817C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-family: 'Playfair Display','Noto Serif', serif;
+}
+
+.cta-button:hover {
+  background-color: #E5A500;
+}
+
 /* Right hand side column Style */
  .col-2 {
      border-radius: 5px;
@@ -270,17 +274,17 @@
 /* For 400 - 600 */
 @media (min-width: 400px) and (max-width: 600px) {
   h2 {
-    font-size: 32px;
+    font-size: 24px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 15px;
   }
   /* Adjust container width */
   .container-skills {
     width: 90%;
   }
    .column {
-     width:100%
+     width:100%;
      }
   .row {
      display: flex;
